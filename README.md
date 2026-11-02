@@ -42,11 +42,6 @@
   <img alt="Most used languages" src="profile-summary-card-output/github/2-most-commit-language.svg" width="49%">
 </picture>
 
-[![Followers](https://img.shields.io/github/followers/cberthun?style=flat-square&logo=github&label=followers)](https://github.com/cberthun?tab=followers)
-[![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fcberthun&query=%24.public_repos&style=flat-square&logo=github&label=public%20repos)](https://github.com/cberthun?tab=repositories)
-[![Commits](https://img.shields.io/github/commit-activity/y/cberthun/webmanager?style=flat-square&label=WebManager%20commits%20%2F%20year)](https://github.com/cberthun/webmanager/commits/main)
-[![License](https://img.shields.io/github/license/cberthun/webmanager?style=flat-square&label=WebManager%20license)](https://github.com/cberthun/webmanager/blob/main/LICENSE.md)
-
 </div>
 
 ---
