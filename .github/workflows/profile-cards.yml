@@ -14,11 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # The action commits the generated cards to the main branch itself.
       - uses: vn7n24fzkq/github-profile-summary-cards@v0.13.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: "main"
           TIME_ZONE: "Europe/Berlin"
+          AUTO_PUSH: false
+
+      - name: Commit changed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          git diff --cached --quiet || git commit -m "Update profile stats cards"
+          git push
