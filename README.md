@@ -6,9 +6,6 @@
 
 **Developer from Bavaria, Germany** · building self-hosted tools
 
-[![Website](https://img.shields.io/badge/Website-cberthun.de-0b7285?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://cberthun.de)
-[![WebManager](https://img.shields.io/badge/WebManager-cbwebmanager.netlify.app-4c6ef5?style=for-the-badge)](https://cbwebmanager.netlify.app)
-
 </div>
 
 ---
